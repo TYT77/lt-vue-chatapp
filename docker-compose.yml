@@ -7,7 +7,7 @@ services:
         env_file:
           - ./build/node/.env    
         ports: 
-          - '3000:3000'
+          - '80:8080'
         tty: true
         init: true   
 
