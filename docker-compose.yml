@@ -10,8 +10,5 @@ services:
           - '3000:3000'
         tty: true
         init: true   
-        depends_on:
-          - mysql    
-
 
 
